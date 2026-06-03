@@ -154,6 +154,40 @@ h3 {
   width: fit-content;
 }
 
+.faq {
+  padding: 0 0 72px;
+}
+
+.faq-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.faq-item {
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0 14px 36px rgba(15, 23, 42, 0.06);
+}
+
+.faq-item p {
+  margin: 0;
+  color: #617089;
+  line-height: 1.7;
+}
+
+.faq-item a {
+  color: #4d78c9;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.faq-item a:hover {
+  text-decoration: underline;
+}
+
 .contact-section {
   padding-bottom: 48px;
 }
@@ -193,6 +227,10 @@ h3 {
 
 @media (max-width: 900px) {
   .pricing-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .faq-list {
     grid-template-columns: 1fr;
   }
 

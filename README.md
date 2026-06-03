@@ -4,4 +4,4 @@ Bootstrapped by SaaSClaw.
 
 ## Project slug
 
-`SaasClaw-demo`
+`saasclaw-demo`

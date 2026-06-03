@@ -154,6 +154,43 @@ h3 {
   width: fit-content;
 }
 
+.contact-section {
+  padding-bottom: 48px;
+}
+
+.site-footer {
+  border-top: 1px solid rgba(148, 163, 184, 0.22);
+  padding: 20px 0 32px;
+}
+
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.footer-brand {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #324155;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-nav a {
+  color: #4d78c9;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 900px) {
   .pricing-grid {
     grid-template-columns: 1fr;
@@ -161,5 +198,10 @@ h3 {
 
   .hero {
     padding-top: 72px;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }

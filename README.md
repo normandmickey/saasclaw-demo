@@ -1,4 +1,4 @@
-# SaaSClaw-demo
+# Norm's SaasClaw Demo
 
 Bootstrapped by SaaSClaw.
 
